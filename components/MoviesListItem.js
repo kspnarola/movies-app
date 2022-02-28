@@ -18,7 +18,16 @@ export default function MoviesListItem({ movie }) {
     return (
         <>
             <Card style={{ marginBottom: "20px", cursor: "pointer" }} onClick={() => openPopup()}>
-                <Image className="card-img-top" src={movie.posterUrl.src} width={250} alt={movie.title} height={250} onError={(e) => { e.target.src = 'default.webp'; }} />
+                <Image
+                    className="card-img-top"
+                    src={movie.posterUrl.src}
+                    placeholder="blur"
+                    width={250}
+                    alt={movie.title}
+                    height={250}
+                    onError={(e) => { e.target.src = 'default.webp'; }}
+
+                />
                 <Card.Body>
                     <Card.Title>{movie.title}</Card.Title>
                     <Card.Text style={{ marginBottom: 0, fontSize: '14px' }}>
