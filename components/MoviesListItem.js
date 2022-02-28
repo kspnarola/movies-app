@@ -1,6 +1,5 @@
 import { Card, Button } from "react-bootstrap";
 import Image from "next/image";
-import DefaultImg from '../assets/images/default.webp';
 import CustomPopup from "./CustomPopup";
 import { useState } from "react";
 
@@ -22,6 +21,7 @@ export default function MoviesListItem({ movie }) {
                     className="card-img-top"
                     src={movie.posterUrl.src}
                     placeholder="blur"
+                    blurDataURL={movie.posterUrl.src}
                     width={250}
                     alt={movie.title}
                     height={250}
