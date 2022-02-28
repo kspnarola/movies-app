@@ -4,7 +4,7 @@ import MoviesListItem from './MoviesListItem'
 export default function MoviesList({ movies }) {
     return (
         <div className='movies-list'>
-            <Row >
+            <Row className="justify-content-center">
                 {movies.map((movie, key) =>
                     <Col md={4} sm={6} xl={3} key={key}>
                         <MoviesListItem movie={movie} />
