@@ -1,13 +1,12 @@
-import React from 'react'
 import { Container } from 'react-bootstrap'
 import Header from './Header'
 
-export default function ({ children }) {
+export default function Layout(props) {
     return (
         <div className="app-layout">
             <Header />
             <Container fluid>
-                {children}
+                {props.children}
             </Container>
         </div>
     )

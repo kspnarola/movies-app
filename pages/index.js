@@ -7,11 +7,11 @@ import FilterBox from '../components/FilterBox'
 
 export default function Home() {
   const [searchMovie, setSearchMovie] = useState("")
-  const [movies, setMovies] = useState(MoviesData.movies)
+  const [movies, setMovies] = useState(MOVIES_LIST_DATA)
 
   useEffect(() => {
     if (searchMovie) {
-      const filteredMovies = MoviesData.movies.filter(movie => movie.title.toLowerCase().includes(searchMovie.toLowerCase()));
+      const filteredMovies = MOVIES_LIST_DATA.filter(movie => movie.title.toLowerCase().includes(searchMovie.toLowerCase()));
       setMovies(filteredMovies);
     }
   }, [searchMovie])
