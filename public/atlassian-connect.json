@@ -6,7 +6,7 @@
     "name": "Example, Inc.",
     "url": "http://example.com"
   },
-  "baseUrl": "https://react-jira-addon.web.app",
+  "baseUrl": "https://movies-app-omega-dun.vercel.app/",
   "authentication": {
     "type": "none"
   },
