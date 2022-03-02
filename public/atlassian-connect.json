@@ -1,7 +1,7 @@
 {
   "name": "Next Addon App",
   "description": "Atlassian Connect app",
-  "key": "com.example.myapp",
+  "key": "movies-app-omega-dun.vercel.app",
   "vendor": {
     "name": "Example, Inc.",
     "url": "http://example.com"
@@ -14,7 +14,7 @@
   "modules": {
     "generalPages": [
       {
-        "key": "my-addon-page-name",
+        "key": "my-next-addon-page-name",
         "location": "system.top.navigation.bar",
         "name": {
           "value": "Next-Addon-Jira"
