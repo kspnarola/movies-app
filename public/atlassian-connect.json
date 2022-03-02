@@ -1,5 +1,5 @@
 {
-  "name": "React Add-On",
+  "name": "Next Addon App",
   "description": "Atlassian Connect app",
   "key": "com.example.myapp",
   "vendor": {
@@ -17,7 +17,7 @@
         "key": "my-addon-page-name",
         "location": "system.top.navigation.bar",
         "name": {
-          "value": "React-Jira"
+          "value": "Next-Addon-Jira"
         },
         "url": "/"
       }
