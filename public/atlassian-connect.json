@@ -1,7 +1,7 @@
 {
   "name": "Next Addon App",
   "description": "Next Atlassian Connect app",
-  "key": "com.example.myapp",
+  "key": "com.next.myapp",
   "vendor": {
     "name": "Example, Inc.",
     "url": "http://example.com"
