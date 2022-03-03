@@ -1,12 +1,12 @@
 {
   "name": "Next Addon App",
-  "description": "Atlassian Connect app",
-  "key": "movies-app-omega-dun.vercel.app",
+  "description": "Next Atlassian Connect app",
+  "key": "com.example.myapp",
   "vendor": {
     "name": "Example, Inc.",
     "url": "http://example.com"
   },
-  "baseUrl": "https://movies-app-omega-dun.vercel.app/",
+  "baseUrl": "/",
   "authentication": {
     "type": "none"
   },

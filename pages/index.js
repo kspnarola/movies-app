@@ -24,6 +24,13 @@ export default function Home() {
       <Head>
         <title>Movie App</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/@atlaskit/css-reset@2.0.0/dist/bundle.css"
+          media="all"
+        />
+        <script src="https://connect-cdn.atl-paas.net/all.js" async></script>
       </Head>
       <Container className="home-page">
         <FilterBox searchMovie={searchMovie} setSearchMovie={setSearchMovie} />
