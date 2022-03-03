@@ -6,7 +6,7 @@
     "name": "Example, Inc.",
     "url": "http://example.com"
   },
-  "baseUrl": "/",
+  "baseUrl": "https://movies-app-omega-dun.vercel.app",
   "authentication": {
     "type": "none"
   },
